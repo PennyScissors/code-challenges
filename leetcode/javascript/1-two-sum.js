@@ -13,7 +13,7 @@ Given nums = [2, 7, 11, 15], target = 9,
 */
 
 var twoSum = function (nums, target) {
-    var candidate_index_dict = {}
+    var candidate_index_dict = {};
 
     for (const [index, num] of nums.entries()) {
         candidate = candidate_index_dict[num.toString()];
